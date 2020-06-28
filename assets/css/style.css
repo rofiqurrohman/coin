@@ -1,0 +1,231 @@
+.home .navbar1 .active{
+    font-weight: bolder;
+}
+
+img{
+    cursor: pointer;
+}
+
+.navbar1 .nav1,
+.genres .genre{
+    cursor: pointer;
+}
+
+.navbar1 form.cari{
+    position: relative;
+}
+.navbar1 form.cari button{
+    position: absolute;
+    right: 0;
+}
+
+.home .jumbotron1{
+    height: 600px;
+}
+.home .jumbotron1 img{
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.home .carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+}
+
+.home .latest{
+    height: 500px;
+}
+home-bar h4{
+    background-color: rgb(72, 151, 216);
+    width: 170px;
+    text-align: center;
+    color: white;
+    padding: 0 0 3px 0;
+    margin: 0 0 1em 4em;
+    font-size: 20px;
+}
+
+.jadwal h4{
+    background-color: rgb(72, 151, 216);
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 1em;
+}
+.latest .carousel-inner{
+    text-align: center;
+    width: 1050px;
+}
+
+.latest .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.latest .carousel-inner img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    /* filter: blur(1px); */
+}
+
+.trending{
+    height: 430px;
+}
+
+.trending .card{
+    height: 60px;
+    border: 0;
+}
+.trending .card:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.trending .card img{
+    height: 57px;
+    width: 47px;
+}
+
+.trending .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 5px;
+    padding-left: 4em;
+}
+
+.genres #genreid .card img{
+    height: 200px;
+}
+
+.genres .active{
+    background-color:gray;
+    filter: invert(100%);
+    font-weight: bolder;
+}
+
+/* .jadwal .jad{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+} */
+
+.manhwa {
+    margin: 15px;
+}
+
+.manhwa .carousel-inner img{
+    height: 400px;
+}
+
+.manhwa .carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+}
+
+.manhwa .topm img{
+    height: 100px;
+    width: 80px;
+}
+
+.manhwa .tm{
+    box-shadow: inset 0px 0px 14px -7px rgba(0,0,0,0.75);
+    border-radius: 2%;
+    height: 800px;
+}
+
+.manhwa #card2{
+    width: 450px;
+}
+
+.manhwa p{
+    background-color: cornflowerblue;
+    width: 130px;
+    text-align: center;
+    color: white;
+}
+
+.manhwa h4{
+    background-color: rgb(72, 151, 216);
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.manhwa .p3 img{
+    margin-right: 2em;
+}
+
+.manhwa .mtoday img{
+    width: 200px;
+    height: 250px;
+}
+
+.webtoon .wbaru img{
+    margin-right: 1.1em;
+    width: 200px;
+    height: 250px;
+}
+
+.webtoon .topw img{
+    height: 100px;
+    width: 80px;
+}
+.webtoon .webup img{
+    height: 150px;
+    width: 100px;
+}
+
+.webtoon .wupdate{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 5px;
+    padding-left: 1em;
+}
+.webtoon h4{
+    background-color: rgb(72, 151, 216);
+    width: 160px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 1em;
+    padding-bottom: 2px;
+}
+
+.webtoon #twebtoon{
+    box-shadow: inset 0px 0px 14px -7px rgba(0,0,0,0.75);
+    height: 800px;
+}
+.profil #profile,
+.profil #password{
+    padding: 0 2em;
+}
+.profil #profile img{
+    height: 100px;
+}
+
+.profil button{
+    margin: 2em 0;
+}
+
+.search .pencarian{
+    
+    color: black;
+    margin: 0px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.footer img{
+    height: 30px;
+    margin-left: 3px;
+}
+.footer p{
+    font-size: 10px;
+}

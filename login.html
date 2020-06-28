@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>COIN | Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="box mx-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/login.png" alt="gambar" width="460px" height="550px">
+                </div>
+                <div class="col-md-6 mx-auto pt-3">
+                    <h3>Please Login</h3>
+                    <button type="button" class="btn btn-outline-primary mb-3 mt-3">Continue with Facebook</button>
+                    <button type="button" class="btn btn-outline-primary mb-5">Continue with Google</button>
+                    <h4>Login with your Coin account</h4>
+                    <form action="index.html" method="POST" onsubmit="return v_login()">
+                        <div class="form-group mx-auto">
+                          <input type="text" class="form-control mx-auto mt-3" id="username" placeholder="Username" required>
+                          <small id="u_pesan" class="form-text text-muted"></small>
+                          <input type="password" class="form-control mx-auto" id="password" placeholder="Password" required>
+                          <small id="p_pesan" class="form-text text-muted"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <small class="form-text text-muted"><a href="#">Forgot Password ?</a></small>
+                        <h6>Don't have an account ? <a href="signup.html">Register</a></h6>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <script src="./assets/js/validasi.js"></script>
+</body>
+</html>
